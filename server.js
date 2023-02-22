@@ -3,7 +3,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Snyk Codelab Verify TINT-148');
+  res.send('K8s 1.26 test');
 });
 
 app.get('/health', (req, res) => {
