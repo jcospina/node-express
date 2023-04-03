@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: node-express
+  annotations:
+    github.com/project-slug: jcospina/node-express
+spec:
+  type: other
+  lifecycle: experimental
+  owner: jospina@vmware.com
