@@ -2,15 +2,15 @@ apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
   name: node-express
-  namespace: juan-apps
+  namespace: my-apps
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: node-express
+    app.kubernetes.io/part-of: my-apps-node-express
   annotations:
-    'backstage.io/kubernetes-namespace': juan-apps
+    'backstage.io/kubernetes-namespace': my-apps
 spec:
   source:
     git:
       ref:
-        branch: main
+        branch: my-apps
       url: https://github.com/sample-accelerators/node-express.git
