@@ -2,10 +2,12 @@ apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
   name: node-express
-  namespace: default
+  namespace: juan-apps
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: node-express
+  annotations:
+    'backstage.io/kubernetes-namespace': juan-apps
 spec:
   source:
     git:
