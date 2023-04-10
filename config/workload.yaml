@@ -1,7 +1,7 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: node-express
+  name: my-apps-node-express
   namespace: my-apps
   labels:
     apps.tanzu.vmware.com/workload-type: web
@@ -13,4 +13,4 @@ spec:
     git:
       ref:
         branch: my-apps
-      url: https://github.com/sample-accelerators/node-express.git
+      url: https://github.com/jcospina/node-express.git
