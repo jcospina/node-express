@@ -9,6 +9,7 @@ metadata:
     - express
     - tanzu
   annotations:
+    'backstage.io/kubernetes-namespace': juan-apps
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=node-express-accelerator'
 spec:
   type: service
