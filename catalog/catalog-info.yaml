@@ -9,7 +9,7 @@ metadata:
     - express
     - tanzu
   annotations:
-    'backstage.io/kubernetes-namespace': my-apps
+    'backstage.io/kubernetes-namespace': scoped-namespace
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=node-express'
 spec:
   type: service
