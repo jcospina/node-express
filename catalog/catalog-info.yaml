@@ -12,7 +12,7 @@ metadata:
     'backstage.io/kubernetes-namespace': scoped-namespace
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=node-express'
     snyk.io/org-name: jcospina
-    snyk.io/project-ids: 883c2d65-1170-40d8-bf5c-bbba4a13eec1
+    snyk.io/project-ids: 34258b5b-8f96-4437-9a7b-bdd20efee447 
 spec:
   type: service
   lifecycle: experimental
